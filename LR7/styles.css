@@ -1,0 +1,42 @@
+/* Змінюємо стиль заголовка h1 */
+h1 {
+    color: hotpink; /* Зміна кольору на hotpink */
+    border-bottom: 10px dotted purple; /* Пунктирний нижній бордер з кольором purple */
+}
+
+/* Застосовуємо курсив до підзаголовку h2 */
+h2 {
+    font-size: 1.5em;
+    font-style: italic; /* Додаємо курсив */
+}
+
+/* Стиль для списку контактних даних */
+ul {
+    background-color: #eeeeee; /* Колір фону */
+    border: 5px solid purple; /* Суцільний бордер фіолетового кольору */
+    padding: 10px; /* Відступ від границі */
+}
+
+/* Стиль для посилань при наведенні */
+a:hover {
+    color: green; /* Робимо посилання зеленими при наведенні */
+    text-decoration: none;
+}
+
+/* Стиль для блоку з текстом "Web Developer Far far away…" */
+#article {
+    background: url('star.svg') right top repeat-y scroll; /* Фонове зображення зі скролінгом */
+    border: solid blue; /* Суцільний синій бордер */
+    border-width: 20px 15px; /* Товщина бордера: 20px зверху і знизу, 15px зліва та справа */
+    padding: 30px calc(3em) 5px; /* Відступ всередині: 30px зверху, потрійна висота шрифту з боків, 5px знизу */
+    height: 150px; /* Висота блоку */
+    overflow-y: auto; /* Скролінг по вертикалі при потребі */
+    margin: 30px 10px; /* Зовнішній відступ: 30px зверху і знизу, 10px з боків */
+    border-radius: 100px / 20px; /* Закруглення кутів */
+}
+
+/* Стиль для останнього p всередині блоку з ідентифікатором article */
+#article p:last-child {
+    direction: rtl; /* Напрямок тексту справа наліво */
+    color: rgb(47, 183, 68); /* Зміна кольору тексту */
+}
