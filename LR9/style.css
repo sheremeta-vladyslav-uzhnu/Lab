@@ -1,0 +1,41 @@
+body {
+    font-family: helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Контейнер для всієї програми */
+.container {
+    width: 350px;
+    padding: 20px;
+    border: 2px solid #FFC125;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+label {
+    font-weight: bold;
+}
+
+div {
+    padding-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 150px;
+}
+
+/* Рамка для історії */
+.story {
+    background: #FFC125;
+    color: #5E2612;
+    padding: 10px;
+    border: 1px solid #5E2612;
+    border-radius: 5px;
+    visibility: hidden;
+}
