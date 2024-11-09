@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Основна інформація
             userCard.innerHTML = `
-                <h2>${user.username}</h2>
-                <p>Повне ім'я: ${user.fullName}</p>
+                <h2>${user.fullName}</h2>
+                <p>Username: ${user.username}</p>
                 <p>Роль: ${user.role}</p>
                 <p>Статус: ${user.status}</p>
                 <p>Дата реєстрації: ${new Date(user.registrationDate).toLocaleDateString()}</p>
