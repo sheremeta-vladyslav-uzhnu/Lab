@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список користувачів</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Список користувачів</h1>
+    </header>
 
+    <section class="filters">
+        <input type="text" id="search" placeholder="Пошук за ім'ям або повним іменем">
+        <select id="roleFilter">
+            <option value="">Всі ролі</option>
+            <option value="Admin">Admin</option>
+            <option value="Moderator">Moderator</option>
+            <option value="User">User</option>
+        </select>
+        <select id="statusFilter">
+            <option value="">Всі статуси</option>
+            <option value="Active">Active</option>
+            <option value="Pending">Pending</option>
+            <option value="Suspended">Suspended</option>
+            <option value="Banned">Banned</option>
+        </select>
+    </section>
+
+    <section id="userList" class="user-list"></section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+    <footer>
+        <p>Contact me</p>
+        <p class="contact-item"><i class="contact-icon-mail"></i> email: sheremeta.vladyslav@student.uzhnu.edu.ua</p>
+        <p class="contact-item"><i class="contact-icon-phone"></i> phone: +380999999999</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

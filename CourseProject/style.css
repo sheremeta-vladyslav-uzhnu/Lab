@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.user-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 22%; /* Розмір картки для 4 карток у ряд */
+    min-width: 200px;
+    position: relative;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    transform-origin: center;
+}
+
+.user-card:hover {
+    transform: scale(1.05);
+    z-index: 10;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.user-card .email {
+    display: none;
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.user-card:hover .email {
+    display: block;
+    opacity: 1; 
+}
+
+.user-card h2, .user-card p {
+    margin: 5px 0;
+    white-space: normal; /* Дозволяє автоматичний перенос слів */
+}
+
+.user-card[data-status="Pending"] {
+    background-color: #FFF8E1;
+}
+
+.user-card[data-status="Suspended"] {
+    background-color: #FFCDD2;
+}
+
+.user-card[data-status="Banned"] {
+    background-color: #E0E0E0;
+    opacity: 0.6;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover {
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer p.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer p.contact-item i {
+    font-style: normal;
+    font-weight: bold;
+    color: #ffc107; /* Жовтий колір для іконок */
+}
+
+/* Додаткові стилі для іконок контактів */
+.contact-icon-mail::before {
+    content: "✉️"; /* Іконка для пошти */
+}
+
+.contact-icon-phone::before {
+    content: "📞"; /* Іконка для телефону */
+}

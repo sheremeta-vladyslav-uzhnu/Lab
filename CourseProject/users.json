@@ -1,0 +1,183 @@
+[
+    {
+      "userId": 601,
+      "username": "anna_ivanova",
+      "fullName": "Анна Іванова",
+      "email": "anna.ivanova@example.com",
+      "role": "Admin",
+      "registrationDate": "2021-05-20",
+      "status": "Active"
+    },
+    {
+      "userId": 602,
+      "username": "dmytro_pavlenko",
+      "fullName": "Дмитро Павленко",
+      "email": "dmytro.pavlenko@example.com",
+      "role": "User",
+      "registrationDate": "2021-06-15",
+      "status": "Active"
+    },
+    {
+      "userId": 603,
+      "username": "olena_kovalenko",
+      "fullName": "Олена Коваленко",
+      "email": "olena.kovalenko@example.com",
+      "role": "Moderator",
+      "registrationDate": "2021-07-10",
+      "status": "Active"
+    },
+    {
+      "userId": 604,
+      "username": "serhiy_petrovskiy",
+      "fullName": "Сергій Петровський",
+      "email": "serhiy.petrovskiy@example.com",
+      "role": "User",
+      "registrationDate": "2021-08-05",
+      "status": "Suspended"
+    },
+    {
+      "userId": 605,
+      "username": "viktoria_lysenko",
+      "fullName": "Вікторія Лисенко",
+      "email": "viktoria.lysenko@example.com",
+      "role": "User",
+      "registrationDate": "2021-09-12",
+      "status": "Active"
+    },
+    {
+      "userId": 606,
+      "username": "andriy_tkachuk",
+      "fullName": "Андрій Ткачук",
+      "email": "andriy.tkachuk@example.com",
+      "role": "Admin",
+      "registrationDate": "2021-10-18",
+      "status": "Active"
+    },
+    {
+      "userId": 607,
+      "username": "kateryna_bondarenko",
+      "fullName": "Катерина Бондаренко",
+      "email": "kateryna.bondarenko@example.com",
+      "role": "User",
+      "registrationDate": "2021-11-25",
+      "status": "Pending"
+    },
+    {
+      "userId": 608,
+      "username": "oleh_klymenko",
+      "fullName": "Олег Клименко",
+      "email": "oleh.klymenko@example.com",
+      "role": "Moderator",
+      "registrationDate": "2021-12-30",
+      "status": "Active"
+    },
+    {
+      "userId": 609,
+      "username": "natalia_shevchenko",
+      "fullName": "Наталія Шевченко",
+      "email": "natalia.shevchenko@example.com",
+      "role": "User",
+      "registrationDate": "2022-01-15",
+      "status": "Active"
+    },
+    {
+      "userId": 610,
+      "username": "ivan_kravchenko",
+      "fullName": "Іван Кравченко",
+      "email": "ivan.kravchenko@example.com",
+      "role": "User",
+      "registrationDate": "2022-02-20",
+      "status": "Banned"
+    },
+    {
+      "userId": 611,
+      "username": "lidiya_melnyk",
+      "fullName": "Лідія Мельник",
+      "email": "lidiya.melnyk@example.com",
+      "role": "User",
+      "registrationDate": "2022-03-05",
+      "status": "Active"
+    },
+    {
+      "userId": 612,
+      "username": "mykola_koval",
+      "fullName": "Микола Коваль",
+      "email": "mykola.koval@example.com",
+      "role": "Moderator",
+      "registrationDate": "2022-04-12",
+      "status": "Active"
+    },
+    {
+      "userId": 613,
+      "username": "iryna_hrytsenko",
+      "fullName": "Ірина Гриценко",
+      "email": "iryna.hrytsenko@example.com",
+      "role": "User",
+      "registrationDate": "2022-05-18",
+      "status": "Pending"
+    },
+    {
+      "userId": 614,
+      "username": "oleksandr_zinchenko",
+      "fullName": "Олександр Зінченко",
+      "email": "oleksandr.zinchenko@example.com",
+      "role": "User",
+      "registrationDate": "2022-06-25",
+      "status": "Active"
+    },
+    {
+      "userId": 615,
+      "username": "svitlana_kuzmenko",
+      "fullName": "Світлана Кузьменко",
+      "email": "svitlana.kuzmenko@example.com",
+      "role": "Admin",
+      "registrationDate": "2022-07-30",
+      "status": "Active"
+    },
+    {
+      "userId": 616,
+      "username": "maksym_yaremchuk",
+      "fullName": "Максим Яремчук",
+      "email": "maksym.yaremchuk@example.com",
+      "role": "User",
+      "registrationDate": "2022-08-15",
+      "status": "Suspended"
+    },
+    {
+      "userId": 617,
+      "username": "olga_polishchuk",
+      "fullName": "Ольга Поліщук",
+      "email": "olga.polishchuk@example.com",
+      "role": "Moderator",
+      "registrationDate": "2022-09-20",
+      "status": "Active"
+    },
+    {
+      "userId": 618,
+      "username": "denys_ivanov",
+      "fullName": "Денис Іванов",
+      "email": "denys.ivanov@example.com",
+      "role": "User",
+      "registrationDate": "2022-10-05",
+      "status": "Banned"
+    },
+    {
+      "userId": 619,
+      "username": "alina_karpenko",
+      "fullName": "Аліна Карпенко",
+      "email": "alina.karpenko@example.com",
+      "role": "User",
+      "registrationDate": "2022-11-12",
+      "status": "Active"
+    },
+    {
+      "userId": 620,
+      "username": "taras_stepanenko",
+      "fullName": "Тарас Степаненко",
+      "email": "taras.stepanenko@example.com",
+      "role": "User",
+      "registrationDate": "2022-12-01",
+      "status": "Pending"
+    }
+  ]
+  
